@@ -1,4 +1,5 @@
 const express = require("express");
+const gravatar = require("gravatar");
 const router = express.Router();
 const { check, validationResult } = require("express-validator");
 
@@ -35,6 +36,18 @@ router.post(
       }
 
       // Get users gravatar
+      const avatar = gravatar.url(email, {
+        s: "200",
+        r: "pg",
+        d: "mm",
+      });
+
+      user = new User({
+        name,
+        email,
+        avatar,
+        password,
+      });
 
       // Ecrypt password
 
