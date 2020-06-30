@@ -1,10 +1,13 @@
 {
   "name": "philadev",
   "version": "1.0.0",
+  "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": "https://github.com/jessicamhunt/PhilaDev.git",
   "author": "jessicamhunt <j.m.hunt1018@gmail.com>",
