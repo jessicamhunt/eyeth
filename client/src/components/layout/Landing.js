@@ -12,10 +12,8 @@ const Landing = ({ isAuthenticated }) => {
     <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
-          <h1 className="x-large">~ Athena ~</h1>
-          <p className="lead">
-            Developer community building the bridge to diversity in tech.
-          </p>
+          <h1 className="x-large">ATHENA</h1>
+          <p className="lead">Developer network for women in technology.</p>
           <div className="buttons">
             <Link to="/register" className="btn btn-primary">
               Sign Up
