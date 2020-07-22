@@ -394,12 +394,12 @@ button {
 }
 
 .profile-top .icons a {
-  color: #fff;
+  color: var(--dark-color);
   margin: 0 0.3rem;
 }
 
 .profile-top .icons a:hover {
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .profile-about {
