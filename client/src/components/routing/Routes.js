@@ -14,6 +14,12 @@ import AddEducation from "../profile-forms/AddEducation";
 import Posts from "../posts/Posts";
 import Post from "../post/Post";
 import PrivateRoute from "../routing/PrivateRoutes";
+import Lessons from "../lessons/Lessons";
+import LessonOne from "../lessons/LessonOne";
+import LessonTwo from "../lessons/LessonTwo";
+import LessonThree from "../lessons/LessonThree";
+import LessonFour from "../lessons/LessonFour";
+import LessonFive from "../lessons/LessonFive";
 
 const Routes = (props) => {
   return (
@@ -24,6 +30,12 @@ const Routes = (props) => {
         <Route exact path="/login" component={Login} />
         <Route exact path="/profiles" component={Profiles} />
         <Route exact path="/profile/:id" component={Profile} />
+        <Route exact path="/lessons" component={Lessons} />
+        <Route exact path="/lessonone" component={LessonOne} />
+        <Route exact path="/lessontwo" component={LessonTwo} />
+        <Route exact path="/lessonthree" component={LessonThree} />
+        <Route exact path="/lessonfour" component={LessonFour} />
+        <Route exact path="/lessonfive" component={LessonFive} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
         <PrivateRoute exact path="/create-profile" component={CreateProfile} />
         <PrivateRoute exact path="/edit-profile" component={EditProfile} />
