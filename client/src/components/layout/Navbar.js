@@ -8,6 +8,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
       <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
         <Link to="/profiles">Community</Link>
       </li>
       <li>
@@ -34,6 +37,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const guestLinks = (
     <ul>
       <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
         <Link to="/profiles">Community</Link>
       </li>
       <li>
@@ -49,10 +55,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   );
 
   return (
-    <nav className="navbar bg-dark">
+    <nav className="navbar">
       <h1>
         <Link to="/">
-          <i className="fas fa-spa"></i> ELY
+          <i className="far fa-eye"></i> Eyeth
         </Link>
       </h1>
       {!loading && (

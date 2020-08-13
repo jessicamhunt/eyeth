@@ -1,10 +1,10 @@
 /* Global Styles */
 :root {
-  --primary-color: white;
-  --dark-color: black;
-  --light-color: #f5e5e7;
-  --danger-color: #ef9a91;
-  --success-color: #cefdce;
+  --primary-color: #ad974f;
+  --dark-color: #231f20;
+  --light-color: #eaeaea;
+  --danger-color: #800000;
+  --success-color: darkolivegreen;
 }
 
 * {
@@ -13,23 +13,26 @@
   padding: 0;
 }
 
+/* fonts */
+/* font-family: 'Orbitron', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  /* background-image: radial-gradient(circle, white, #e9cace); */
-  background: url("./img/backgroungimg.jpg") no-repeat center center/cover;
-  color: var(--dark-color);
+  background-color: var(--dark-color);
+  color: #fff;
 }
 
 a {
-  font-family: "Averia Serif Libre", cursive;
-  color: var(--dark-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 ul {
   list-style: none;
+  font-family: "Orbitron", sans-serif;
 }
 
 img {
@@ -48,23 +51,20 @@ img {
 
 /* Text Styles*/
 .x-large {
-  font-family: "Averia Serif Libre", cursive;
-  color: var(--dark-color);
+  font-family: "Orbitron", sans-serif;
   font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
 .large {
-  font-family: "Averia Serif Libre", cursive;
-  color: var(--dark-color);
+  font-family: "Orbitron", sans-serif;
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
 .lead {
-  /* font-family: "Roboto", sans-serif; */
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -74,7 +74,7 @@ img {
 }
 
 .text-primary {
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 .text-dark {
@@ -135,7 +135,7 @@ img {
 
 .btn {
   display: inline-block;
-  background: silver;
+  background: var(--light-color);
   color: #333;
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
@@ -144,6 +144,8 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
+  border-radius: 3px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .badge {
@@ -167,15 +169,15 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: var(--light-color);
-  color: #333;
+  background: var(--primary-color);
+  color: #fff;
 }
 
 .btn-light,
 .bg-light,
 .badge-light,
 .alert-light {
-  background: var(--primary-color);
+  background: var(--light-color);
   color: #333;
 }
 
@@ -185,14 +187,13 @@ img {
 .alert-dark {
   background: var(--dark-color);
   color: #fff;
-  opacity: 0.7;
 }
 
 .btn-danger,
 .bg-danger,
 .badge-danger,
 .alert-danger {
-  background: var(--dark-color);
+  background: var(--danger-color);
   color: #fff;
 }
 
@@ -234,7 +235,7 @@ img {
 
 /* Overlay */
 .dark-overlay {
-  background-color: rgba(253, 249, 249, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -251,6 +252,7 @@ img {
   display: block;
   margin-top: 0.3rem;
   color: #888;
+  font-family: "Roboto", sans-serif;
 }
 
 .form input[type="text"],
@@ -264,6 +266,7 @@ img {
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .form input[type="submit"],
@@ -300,11 +303,10 @@ button {
 .table td {
   padding: 1rem;
   text-align: left;
-  background: var(--primary-color);
 }
 
 .table th {
-  background: var(--primary-color);
+  background: var(--light-color);
 }
 
 /* Navbar */
@@ -317,8 +319,9 @@ button {
   z-index: 1;
   width: 100%;
   top: 0;
-  border-bottom: solid 1px var(--dark-color);
-  opacity: 0.8;
+  border-bottom: solid 1px var(--primary-color);
+  background: #fff;
+  opacity: 0.9;
 }
 
 .navbar ul {
@@ -326,13 +329,14 @@ button {
 }
 
 .navbar a {
-  color: var(--primary-color);
+  color: var(--dark-color);
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
 
 .navbar a:hover {
   color: var(--light-color);
+  background: var(--primary-color);
 }
 
 .navbar .welcome span {
@@ -342,12 +346,12 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url("./img/homepage.jpg") no-repeat center center/cover;
+  background: url("./img/eyeth.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
 .landing-inner {
-  color: var(--dark-color);
+  color: #fff;
   height: 100%;
   width: 80%;
   margin: auto;
@@ -356,6 +360,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Profiles Page */
@@ -394,12 +399,12 @@ button {
 }
 
 .profile-top .icons a {
-  color: var(--dark-color);
+  color: #fff;
   margin: 0 0.3rem;
 }
 
 .profile-top .icons a:hover {
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .profile-about {
