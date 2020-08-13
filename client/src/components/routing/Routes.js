@@ -20,6 +20,11 @@ import LessonTwo from "../lessons/LessonTwo";
 import LessonThree from "../lessons/LessonThree";
 import LessonFour from "../lessons/LessonFour";
 import LessonFive from "../lessons/LessonFive";
+import VideoOne from "../videos/VideoOne";
+import VideoTwo from "../videos/VideoTwo";
+import VideoThree from "../videos/VideoThree";
+import VideoFour from "../videos/VideoFour";
+import VideoFive from "../videos/VideoFive";
 
 const Routes = (props) => {
   return (
@@ -36,6 +41,11 @@ const Routes = (props) => {
         <Route exact path="/lessonthree" component={LessonThree} />
         <Route exact path="/lessonfour" component={LessonFour} />
         <Route exact path="/lessonfive" component={LessonFive} />
+        <Route exact path="/videoone" component={VideoOne} />
+        <Route exact path="/videotwo" component={VideoTwo} />
+        <Route exact path="/videothree" component={VideoThree} />
+        <Route exact path="/videofour" component={VideoFour} />
+        <Route exact path="/videofive" component={VideoFive} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
         <PrivateRoute exact path="/create-profile" component={CreateProfile} />
         <PrivateRoute exact path="/edit-profile" component={EditProfile} />

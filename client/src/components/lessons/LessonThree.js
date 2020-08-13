@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const LessonThree = () => {
   return (
@@ -55,7 +55,7 @@ const LessonThree = () => {
             <Link to="/lessons" className="btn btn-primary">
               Back To Lessons
             </Link>
-            <Link to="/lessons" className="btn btn-primary">
+            <Link to="/videothree" className="btn btn-primary">
               Go To Video
             </Link>
           </div>
