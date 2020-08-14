@@ -25,6 +25,7 @@ import VideoTwo from "../videos/VideoTwo";
 import VideoThree from "../videos/VideoThree";
 import VideoFour from "../videos/VideoFour";
 import VideoFive from "../videos/VideoFive";
+import About from "../about/About";
 
 const Routes = (props) => {
   return (
@@ -46,6 +47,7 @@ const Routes = (props) => {
         <Route exact path="/videothree" component={VideoThree} />
         <Route exact path="/videofour" component={VideoFour} />
         <Route exact path="/videofive" component={VideoFive} />
+        <Route exact path="/about" component={About} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
         <PrivateRoute exact path="/create-profile" component={CreateProfile} />
         <PrivateRoute exact path="/edit-profile" component={EditProfile} />
