@@ -58,7 +58,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className="navbar">
       <h1>
         <Link to="/">
-          <i className="far fa-eye"></i> Eyeth
+          <i className="far fa-eye"></i> <span className="nav-logo">Eyeth</span>
         </Link>
       </h1>
       {!loading && (
