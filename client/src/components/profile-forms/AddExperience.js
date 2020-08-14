@@ -22,10 +22,10 @@ const AddExperience = ({ addExperience, history }) => {
 
   return (
     <Fragment>
-      <h1 className="large text-primary">Add An Experience</h1>
+      <h1 className="large text-primary">Work Experience</h1>
       <p className="lead">
-        <i className="fas fa-code-branch"></i> Add any developer/programming
-        positions that you have had in the past
+        <i className="far fa-eye"></i> Tell us a little bit about your
+        professional background.
       </p>
       <small>* = required field</small>
       <form

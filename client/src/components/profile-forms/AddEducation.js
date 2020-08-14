@@ -30,10 +30,10 @@ const AddEducation = ({ addEducation, history }) => {
 
   return (
     <Fragment>
-      <h1 className="large text-primary">Add An Education</h1>
+      <h1 className="large text-primary">Education</h1>
       <p className="lead">
-        <i className="fas fa-code-branch"></i> Add any school or bootcamp that
-        you have attended
+        <i className="fas fa-code-branch"></i> Add any school or program that
+        you have attended.
       </p>
       <small>* = required field</small>
       <form
@@ -46,7 +46,7 @@ const AddEducation = ({ addEducation, history }) => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="* School or Bootcamp"
+            placeholder="* School or Program"
             name="school"
             value={school}
             onChange={onChange}
