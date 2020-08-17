@@ -21,7 +21,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  /* background: url("./img/space.jpg") no-repeat center center/cover; */
+  /* background-image: linear-gradient(var(--dark-color)); */
   background-color: var(--dark-color);
   color: #fff;
 }

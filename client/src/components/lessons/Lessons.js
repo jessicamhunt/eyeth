@@ -11,19 +11,16 @@ const Lessons = () => {
         </p>
         <div className="buttons">
           <Link to="/lessonone" className="btn btn-primary">
-            Lesson One
+            ASL Lesson One - The Alphabet
           </Link>
           <Link to="/lessontwo" className="btn btn-primary">
-            Lesson Two
+            ASL Lesson Two - Intro
           </Link>
           <Link to="/lessonthree" className="btn btn-primary">
-            Lesson Three
+            ASL Lesson Three - Colors and Describing People
           </Link>
           <Link to="/lessonfour" className="btn btn-primary">
-            Lesson Four
-          </Link>
-          <Link to="/lessonfive" className="btn btn-primary">
-            Lesson Five
+            ASL Lesson Four - Family and Friends
           </Link>
         </div>
       </section>
