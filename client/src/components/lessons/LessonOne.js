@@ -23,6 +23,7 @@ const LessonOne = () => {
           </p>
           <br></br>
           <h2>What Is American Sign Language (ASL) ?</h2>
+          <br></br>
           <p>
             ASL is a language capable of expressing abstract ideas that utilizes
             space and movement to convey meaning. It is a visual/spatial

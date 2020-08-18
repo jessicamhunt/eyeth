@@ -10,16 +10,16 @@ const Lessons = () => {
           <i className="fas fa-user"></i> Choose A Lesson To Get Started!
         </p>
         <div className="buttons">
-          <Link to="/lessonone" className="btn btn-primary">
+          <Link to="/lessonone" className="btn btn-primary m-2">
             ASL Lesson One - The Alphabet
           </Link>
-          <Link to="/lessontwo" className="btn btn-primary">
+          <Link to="/lessontwo" className="btn btn-primary m-2">
             ASL Lesson Two - Intro
           </Link>
-          <Link to="/lessonthree" className="btn btn-primary">
+          <Link to="/lessonthree" className="btn btn-primary m-2">
             ASL Lesson Three - Colors and Describing People
           </Link>
-          <Link to="/lessonfour" className="btn btn-primary">
+          <Link to="/lessonfour" className="btn btn-primary m-2">
             ASL Lesson Four - Family and Friends
           </Link>
         </div>

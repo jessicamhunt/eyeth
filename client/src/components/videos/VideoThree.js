@@ -8,10 +8,10 @@ const VideoThree = () => {
       <div className="container">
         <h1 className="large text-primary">Lesson Three Video</h1>
         <p className="lead">
-          <i className="fas fa-user"></i> Description of Video
+          <i className="far fa-eye"></i> Colors and Describing People
         </p>
         {/* Only loads the YouTube player */}
-        <ReactPlayer url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
+        <ReactPlayer url="https://www.youtube.com/watch?v=kQikk2yA0IA&authuser=0" />
         <div className="buttons my-2">
           <Link to="/lessons" className="btn btn-primary">
             Back To Lessons

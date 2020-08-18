@@ -8,8 +8,7 @@ const VideoOne = () => {
       <div className="container">
         <h1 className="large text-primary">Lesson One Video</h1>
         <p className="lead">
-          <i className="far fa-eye"></i>
-          The Alphabet
+          <i className="far fa-eye"></i> The Alphabet
         </p>
         {/* Only loads the YouTube player */}
         <ReactPlayer url="https://www.youtube.com/watch?v=sulzFf2yT7o&authuser=0" />
